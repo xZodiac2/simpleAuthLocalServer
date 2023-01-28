@@ -12,7 +12,7 @@
         <?php
             if ($_COOKIE['user'] == '') :
         ?>
-            <form action="auth/check.php" method="post">
+            <form action="auth/createUser.php" method="post">
                 <h1>Форма реистрации</h1>
                 <input type="text" name="name" id="name" placeholder="Enter your name">
                 <input type="text" name="login" id="login" placeholder="Enter your login">
